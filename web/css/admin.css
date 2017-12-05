@@ -1,0 +1,77 @@
+.id {
+    max-width: 40px;
+}
+
+/*.name {*/
+    /*max-width: 200px;*/
+    /*overflow: hidden;*/
+    /*white-space: nowrap;*/
+    /*text-overflow: ellipsis;*/
+    /*cursor: pointer;*/
+/*}*/
+
+/*.name:hover {*/
+    /*display: block;*/
+    /*overflow: visible;*/
+    /*position: absolute;*/
+    /*min-width: 350px !important;*/
+    /*background: white;*/
+    /*border-left: none;*/
+    /*border-top: none;*/
+/*}*/
+
+/*.code {*/
+    /*max-width: 150px;*/
+    /*overflow: hidden;*/
+    /*white-space: nowrap;*/
+    /*text-overflow: ellipsis;*/
+    /*cursor: pointer;*/
+/*}*/
+
+.freeze {
+    max-width: 40px !important;
+}
+
+.sort {
+    max-width: 25px;
+}
+
+.actions {
+    text-align: center;
+    white-space: nowrap;
+    width: 70px;
+}
+
+.check, .check input {
+    cursor: pointer;
+}
+
+table  tr.selected {
+    background: rgba(38,185,154,.16) !important;
+    border-top: 1px solid rgba(38, 185, 154, .4) !important;
+    border-bottom: 1px solid rgba(38, 185, 154, .4) !important;
+}
+
+table tbody tr:hover {
+    cursor: pointer;
+    background: rgba(38,185,154,.10) !important;
+    border-top: 1px solid rgba(38, 185, 154, .4) !important;
+    border-bottom: 1px solid rgba(38, 185, 154, .4) !important;
+}
+
+table tbody tr.selected td {
+    border-top: 1px solid rgba(38, 185, 154, .4) !important;
+    border-bottom: 1px solid rgba(38, 185, 154, .4) !important;
+}
+
+select {
+    cursor: pointer;
+}
+
+select[multiple] {
+   height: 180px !important;
+}
+
+.invis {
+    display: none;
+}
